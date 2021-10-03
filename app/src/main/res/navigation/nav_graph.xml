@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ayahFragment">
+
+    <fragment
+        android:id="@+id/ayahFragment"
+        android:name="com.bqubique.quranrandomayah.view.AyahFragment"
+        android:label="fragment_ayah"
+        tools:layout="@layout/fragment_ayah" />
+</navigation>
